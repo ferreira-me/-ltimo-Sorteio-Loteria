@@ -1,0 +1,49 @@
+.container {
+  background-color: #f8f9fa; /* Fundo claro (cinza claro) */
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.results-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333; /* Título em cor escura */
+}
+
+.numbers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.number {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; /* Bolinhas */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 16px;
+  color: white; /* Números em branco */
+}
+
+.date {
+  color: gray;
+  font-size: 14px;
+}
+
+.loading {
+  background-color: yellow;
+}
+.Timemania {
+  color: #049645;
+}
